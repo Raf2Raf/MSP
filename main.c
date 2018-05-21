@@ -4,8 +4,7 @@
  * main.c
  */
 int main(void) {
-    WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
+    WDTCTL = WDTPW | WDTHOLD;	// Остановить WatchDog таймер
 	
 	return 0;
 }
-//cfsdfsdf
